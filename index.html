@@ -14,6 +14,10 @@
             background-color: #f5f5f5;
             color: #333;
         }
+        .dark-mode {
+            background-color: var(--background-dark);
+            color: var(--text-dark);
+        }
         header {
             background-color: #2c3e50;
             color: white;
@@ -28,6 +32,32 @@
             margin: 0;
             font-size: 1.5rem;
             font-weight: 300;
+        }
+        .dark-mode-toggle {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            color: inherit;
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        .social-icons a:hover {
+            color: #007bff;
+        }
         }
         nav {
             background-color: #34495e;
@@ -67,7 +97,6 @@
         <h1>Grazia Valentina Bedregal Ochoa</h1>
         <h2>Estudiante de Administración | UCSP 2025</h2>
     </header>
- <button class="dark-mode-toggle" onclick="toggleDarkMode()">Cambiar a modo oscuro</button>
     <nav>
         <a href="#sobre-mi">Sobre mí</a>
         <a href="#estudios y cursos">Estudios y cursos</a>
@@ -75,6 +104,7 @@
         <a href="#compañeros">Compañeros</a>
         <a href="#contacto">Contacto</a>
     </nav>
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()">Cambiar a modo oscuro</button>
     <section id="sobre-mi">
         <h2>Sobre mí</h2>
         <p>¡Hola! Soy Valentina, tengo 19 años</p>
