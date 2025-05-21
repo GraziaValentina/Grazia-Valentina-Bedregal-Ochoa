@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciencias de la computación 2025 - Página Personal</title>
+    <title>Valentina Bedregal - Página Personal</title>
     <style>
-        :roof {
+        :root {
             --background-light: #f5f5f5;
             --text-light: #333;
             --background-dark: #2c3e50;
             --text-dark: #f5f5f5;
         }
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -19,26 +20,31 @@
             color: var(--text-light);
             transition: all 0.3s ease-in-out;
         }
+
         .dark-mode {
             background-color: var(--background-dark);
             color: var(--text-dark);
         }
+
         header, footer {
             text-align: center;
             background-color: #2c3e50;
             color: white;
             padding: 1rem 0;
         }
+
         nav {
             background-color: #34495e;
             padding: 1rem;
-            text-align: center; 
+            text-align: center;
         }
+
         nav a {
             color: white;
             text-decoration: none;
             margin: 0 15px;
         }
+
         section {
             padding: 2rem;
             margin: 1rem auto;
@@ -47,9 +53,11 @@
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+
         .dark-mode section {
             background: #3b4a5a;
         }
+
         .dark-mode-toggle {
             display: block;
             margin: 20px auto;
@@ -88,47 +96,50 @@
         <h1>Grazia Valentina Bedregal Ochoa</h1>
         <h2>Estudiante de Administración | UCSP 2025</h2>
     </header>
+
     <nav>
         <a href="#sobre-mi">Sobre mí</a>
-        <a href="#estudios y cursos">Estudios y cursos</a>
-        <a href="#profesores">Profesores</a>
-        <a href="#compañeros">Compañeros</a>
+        <a href="#estudios-y-cursos">Estudios y cursos</a>
         <a href="#contacto">Contacto</a>
     </nav>
+
     <button class="dark-mode-toggle" onclick="toggleDarkMode()">Cambiar a modo oscuro</button>
+
     <section id="sobre-mi">
-        <h2>Sobre mí</h2>
-        <p>¡Hola! Soy Valentina, tengo 19 años</p>
+        <div class="text">
+            <h2>Sobre mí</h2>
+            <p>¡Hola! Soy Valentina, tengo 19 años, estudio Administración de Negocios en la UCSP y estoy en 5to semestre. Nací en Puno y me encanta hacer manualidades.</p>
+        </div>
         <img src="https://via.placeholder.com/150" alt="Mi foto">
     </section>
-    <section id="Estudios y cursos">
+
+    <section id="estudios-y-cursos">
         <h2>Estudios y cursos</h2>
         <ul>
-            <li><strong>Análisis, diseño y gestión de Procesos:</strong> explicacion del curso</li>
-            <li><strong>Moral:</strong> Explicación del curso</li>
-            <li><strong>Desarrollo de habilidades de Negociación:</strong>Explicación del curso</li>
+            <li>Análisis, diseño y gestión de procesos</li>
+            <li>Moral</li>
+            <li>Desarrollo de habilidades de negociación</li>
         </ul>
     </section>
-    <section id="Profesores">
-        <h2>Profesores</h2>
-        <p>¡Hola! Soy Valentina, tengo 19 años</p>
-    </section>
-    <section id="Compañeros">
-        <h2>Compañeros</h2>
-        <p>¡Hola! Soy Valentina, tengo 19 años</p>
-    </section>
+
     <section id="contacto">
         <h2>Contacto</h2>
-        <p>Puedes contactarme en mis redes sociales o enviarme un correo electrónico:</p>
+        <p>Puedes contactarme en mis redes sociales:</p>
         <ul>
-            <li><strong>Email:</strong> tuemail@ejemplo.com</li>
-            <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/tuperfil" target="_blank">linkedin.com/in/tuperfil</a></li>
-            <li><strong>GitHub:</strong> <a href="https://github.com/tuusuario" target="_blank">github.com/tuusuario</a></li>
+            <li>Email: tuemail@ejemplo.com</li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/tuperfil" target="_blank">linkedin.com/in/tuperfil</a></li>
+            <li>GitHub: <a href="https://github.com/tuusuario" target="_blank">github.com/tuusuario</a></li>
         </ul>
     </section>
+
     <footer>
-        <p>Copyright &copy; 2025 UCSP Todos los derechos reservados.</p>
-        <p>Aviso sobre cookies | Soporte</p>
+        <p>&copy; 2025 Valentina Bedregal. Todos los derechos reservados.</p>
     </footer>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
 </body>
 </html>
