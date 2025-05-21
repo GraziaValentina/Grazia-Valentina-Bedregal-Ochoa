@@ -3,39 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página personal de [Tu Nombre]">
     <title>Ciencias de la computación 2025 - Página Personal</title>
-    <link rel="stylesheet" href="style.css">
     <style>
+        :roof {
+            --background-light: #f5f5f5;
+            --text-light: #333;
+            --background-dark: #2c3e50;
+            --text-dark: #f5f5f5;
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
+            background-color: var(--background-light);
+            color: var(--text-light);
+            transition: all 0.3s ease-in-out;
         }
         .dark-mode {
             background-color: var(--background-dark);
             color: var(--text-dark);
         }
-        header {
+        header, footer {
+            text-align: center;
             background-color: #2c3e50;
             color: white;
-            text-align: center;
-            padding: 2rem 0;
+            padding: 1rem 0;
         }
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
+        nav {
+            background-color: #34495e;
+            padding: 1rem;
+            text-align: center; 
         }
-        header h2 {
-            margin: 0;
-            font-size: 1.5rem;
-            font-weight: 300;
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .dark-mode section {
+            background: #3b4a5a;
         }
         .dark-mode-toggle {
             display: block;
-            margin: 10px auto;
+            margin: 20px auto;
             padding: 10px 20px;
             background-color: #007bff;
             color: white;
@@ -43,49 +60,27 @@
             border-radius: 5px;
             cursor: pointer;
         }
-        .social-icons {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .social-icons a {
-            margin: 0 10px;
-            color: inherit;
-            text-decoration: none;
-            font-size: 24px;
-        }
-        .social-icons a:hover {
-            color: #007bff;
-        }
-        nav {
-            background-color: #34495e;
-            padding: 1rem;
+
+        #sobre-mi {
             display: flex;
-            justify-content: center;
+            align-items: center;
         }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 1rem;
-            font-size: 1rem;
+
+        #sobre-mi .text {
+            flex: 2;
+            margin-right: 20px;
         }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 2rem;
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            margin-top: 1rem;
+
+        #sobre-mi img {
+            flex: 1;
+            max-width: 150px;
             border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+
         footer {
-            text-align: center;
-            padding: 1rem;
-            background-color: #2c3e50;
-            color: white;
             margin-top: 2rem;
+            padding: 1rem;
+        }
     </style>
 </head>
 <body>
@@ -104,11 +99,7 @@
     <section id="sobre-mi">
         <h2>Sobre mí</h2>
         <p>¡Hola! Soy Valentina, tengo 19 años</p>
-             <div class="photos">
-            <img src="https://via.placeholder.com/150" alt="Foto 1">
-            <img src="https://via.placeholder.com/150" alt="Foto 2">
-            <img src="https://via.placeholder.com/150" alt="Foto 3">
-        </div>
+        <img src="https://via.placeholder.com/150" alt="Mi foto">
     </section>
     <section id="Estudios y cursos">
         <h2>Estudios y cursos</h2>
