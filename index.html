@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentina Bedregal - Página Personal</title>
+    <title>Grazia Valentina Bedregal Ochoa - Página Personal</title>
     <style>
         :root {
             --background-light: #f5f5f5;
@@ -89,6 +89,40 @@
             margin-top: 2rem;
             padding: 1rem;
         }
+ 	.profesor-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+        .profesor-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 2px solid #ddd;
+        }
+        .profesor-info {
+            flex-grow: 1;
+        }
+        .profesor-name {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .profesor-course {
+            font-size: 14px;
+            color: #555;
+        }
+        .profesor-redes a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #0077b5; /* Color para redes sociales */
+        }
     </style>
 </head>
 <body>
@@ -100,8 +134,7 @@
     <nav>
         <a href="#sobre-mi">Sobre mí</a>
         <a href="#trayectoria">Trayectoria</a>
-        <a href="#estudios-y-cursos">Estudios y cursos</a>
-        <a href="#profesores">Profesores</a>
+        <a href="#cursos-2025---01">Cursos 2025 - 01</a>
         <a href="#compañeros-de-estudio">Compañeros de estudio</a>
         <a href="#contacto">Contacto</a>
     </nav>
@@ -111,56 +144,124 @@
     <section id="sobre-mi">
         <div class="text">
             <h2>Sobre mí</h2>
-            <p>¡Hola! Soy Valentina, tengo 19 años, estudio en la <a href="https://ucsp.edu.pe" target="_blank">Universidad Católica San Pablo</a>. la carrera de Administración de Negocios y estoy en 5to semestre.</p>
+            <p>Hola, soy Valentina, tengo 19 años, estudio en la <a href="https://ucsp.edu.pe">Universidad Católica San Pablo</a>,la carrera de <a href="https://ucsp.edu.pe/carreras/administracion-negocios/">Administración de negocios</a> en 5to semestre.</p>
         </div>
-        <img src="https://via.placeholder.com/150" alt="Mi foto">
+        <img src="yo.jpg" alt="Mi foto">
     </section>
 
     <section id="trayectoria">
         <h2>Trayectoria</h2>
-        <ul>
-            <li>Análisis, diseño y gestión de procesos</li>
-            <li>Moral</li>
-            <li>Desarrollo de habilidades de negociación</li>
-        </ul>
+	<p>Mis estudios desde los 3 años hasta 5to de secundaria fue en el colegio <a href="https://www.cegnesanjuanbautista.edu.pe/">San juan Bautista</a></p> 
+
+        
     </section>
-    <section id="estudios-y-cursos">
-        <h2>Estudios y cursos</h2>
-        <ul>
-            <li>Análisis, diseño y gestión de procesos</li>
-            <li>Moral</li>
-            <li>Desarrollo de habilidades de negociación</li>
-        </ul>
+    <section id="cursos-2025---01">
+        <h2>Cursos 2025 - 01</h2>
+	<div class="profesor-card">
+		<img src="Profesor alfredo Salinas.jpg" alt="Foto del Profesor 1" class="profesor-img">
+        	<div class="profesor-info">
+            		<p class="profesor-name">Profesor Alfredo Mauricio Salinas Salas</p>
+            		<p class="profesor-course">Curso: Análisis, diseño y gestión de procesos</p>
+            		<div class="profesor-redes">
+                		<a href="https://www.linkedin.com/in/alfredo-salinas-49a994151/">LinkedIn</a>
+               		</div>
+        	</div>
+    	</div>
+
+    	<div class="profesor-card">
+        	<img src="Profesora narda valderrama.jpg" alt="Foto del Profesor 2" class="profesor-img">
+		<div class="profesor-info">
+            		<p class="profesor-name">Profesora Narda Cecilia Valderrama Pacheco</p>
+			<p class="profesor-course">Curso: Microeconomía</p>
+			<div class="profesor-redes">
+				<a href="https://www.linkedin.com/in/narda-cecilia-valderrama-pacheco-3213ab35/">LinkedIn</a>
+
+           		</div>
+        	</div>
+    	</div>
+
+	<div class="profesor-card">
+        	<img src="Profesor ernesto cuadros.jpg" alt="Foto del Profesor 2" class="profesor-img">
+		<div class="profesor-info">
+            		<p class="profesor-name">Profesor Ernesto Cuadros Vargas</p>
+			<p class="profesor-course">Curso: Introducción de Ciencia de la Computación</p>
+			<div class="profesor-redes">
+				<a href="https://www.linkedin.com/in/ecuadrosv/">LinkedIn</a> 
+           		</div>
+        	</div>
+    	</div>
+
+	<div class="profesor-card">
+        	<img src="Profesor Roger Miller.jpg" alt="Foto del Profesor 2" class="profesor-img">
+		<div class="profesor-info">
+            		<p class="profesor-name">Profesor Roger Michael Silva Miller</p>
+			<p class="profesor-course">Curso: Moral</p>
+			<div class="profesor-redes">
+				<a href="https://www.linkedin.com/in/roger-miller-silva-47374b35/">LinkedIn</a>
+           		</div>
+        	</div>
+    	</div>
+
+	<div class="profesor-card">
+        	<img src="Profesor renzo menchola.jpg" alt="Foto del Profesor 2" class="profesor-img">
+		<div class="profesor-info">
+            		<p class="profesor-name">Profesor Renzo Menchola Tenorio</p>
+			<p class="profesor-course">Curso: Desarrollo de habilidades de negociación</p>
+			<div class="profesor-redes">
+				<a href="https://www.linkedin.com/in/rmenchola/">LinkedIn</a>
+           		</div>
+        	</div>
+    	</div>
+
+	<div class="profesor-card">
+        	<img src="Profesor Miguel Salomon.jpg" alt="Foto del Profesor 2" class="profesor-img">
+		<div class="profesor-info">
+            		<p class="profesor-name">Profesor Miguel Fernando Salomon Valdivia</p>
+			<p class="profesor-course">Curso: Estrategia de Ventas y distribución</p>
+			<div class="profesor-redes">
+				<a href="https://www.linkedin.com/in/miguel-salomon-529453125/">LinkedIn</a>
+           		</div>
+        	</div>
+    	</div>
+
+	<div class="profesor-card">
+        	<img src="Profesor Feliz Luque.jpg" alt="Foto del Profesor 2" class="profesor-img">
+		<div class="profesor-info">
+            		<p class="profesor-name">Profesor Felix Williams Luque Alvarez</p>
+			<p class="profesor-course">Curso: Workspace de Google & IA</p>
+			<div class="profesor-redes">
+				<a href="https://www.linkedin.com/in/felixluquealvarez/">LinkedIn</a>
+           		</div>
+        	</div>
+    	</div>
+
+
     </section>
-        </section>
-    <section id="profesores">
-        <h2>Profesores</h2>
-        <ul>
-            <li>Análisis, diseño y gestión de procesos</li>
-            <li>Moral</li>
-            <li>Desarrollo de habilidades de negociación</li>
-        </ul>
-    </section>
+        
     <section id="compañeros-de-estudio">
         <h2>Compañeros de estudio</h2>
         <ul>
-            <li>Análisis, diseño y gestión de procesos</li>
-            <li>Moral</li>
-            <li>Desarrollo de habilidades de negociación</li>
+		<li><a href="https://sergipalomino.github.io/Perfil.Sergio.PR/">Sergio Gonzalo Palomino Rosado</a></li>
+		<li><a href="">Vanessa Alexandra Yesan Valdivia</a></li>
+		<li><a href="">Piero Mathias Chahuares Diaz</a></li>
+		<li><a href="">Mariano Andrei Mendoza Pinto</a></li>
+		<li><a href="https://ismael-caceres.github.io/Ismael-Valentin-Caceres-Gallegos/">Ismael Valentin Cáceres Gallegos</a></li>
+
         </ul>
     </section>
     <section id="contacto">
         <h2>Contacto</h2>
         <p>Puedes contactarme en mis redes sociales:</p>
         <ul>
-            <li>Email: tuemail@ejemplo.com</li>
-            <li>LinkedIn: <a href="https://linkedin.com/in/tuperfil" target="_blank">linkedin.com/in/tuperfil</a></li>
-            <li>GitHub: <a href="https://github.com/tuusuario" target="_blank">github.com/tuusuario</a></li>
+            <li>Correo electrónico: grazia.bedregal@ucsp.edu.pe</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/valentina-bedregal-151770340/">Grazia Valentina Bedregal</a></li>
+            <li>GitHub: <a href="https://github.com/GraziaValentina">Grazia Valentina Bedregal</a></li>
         </ul>
     </section>
 
     <footer>
-        <p>&copy; 2025 Valentina Bedregal. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Valentina Bedregal | UCSP</p>
+        <p>Todos los derechos reservados.</p>
     </footer>
 
     <script>
