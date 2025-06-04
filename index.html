@@ -124,16 +124,43 @@
 	.dark-mode .profesor-course {
    	color: #FFF;
 	}
+ 	.compañeros-card {
+            background: blanco;
+            border-radius: 10px;
+            padding: 12px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+	}
+	.dark-mode .compañeros-card {
+         background: #2c3e50;
+        }
+        .compañeros-img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .compañeros-info {
+            flex-grow: 1;
+        }
+        .compañeros-name {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+        }
+
 	.sol-y-luna-img{
             width: 30px;
             height: 30px;
         }
-        .profesor-redes a {
+        .redes a {
             margin-right: 10px;
             text-decoration: none;
             color: #3e5770;
 	}
-	.dark-mode .profesor-redes a {
+	.dark-mode .redes a {
    	color: #99adbb;
     </style>
 </head>
@@ -174,7 +201,7 @@
         	<div class="profesor-info">
             		<p class="profesor-name">Profesor Alfredo Mauricio Salinas Salas</p>
             		<p class="profesor-course">Curso: Análisis, diseño y gestión de procesos</p>
-            		<div class="profesor-redes">
+            		<div class="redes">
                 		<a href="https://www.linkedin.com/in/alfredo-salinas-49a994151/">LinkedIn</a>
                		</div>
         	</div>
@@ -185,7 +212,7 @@
 		<div class="profesor-info">
             		<p class="profesor-name">Profesora Narda Cecilia Valderrama Pacheco</p>
 			<p class="profesor-course">Curso: Microeconomía</p>
-			<div class="profesor-redes">
+			<div class="redes">
 				<a href="https://www.linkedin.com/in/narda-cecilia-valderrama-pacheco-3213ab35/">LinkedIn</a>
 
            		</div>
@@ -197,7 +224,7 @@
 		<div class="profesor-info">
             		<p class="profesor-name">Profesor Ernesto Cuadros Vargas</p>
 			<p class="profesor-course">Curso: Introducción de Ciencia de la Computación</p>
-			<div class="profesor-redes">
+			<div class="redes">
 				<a href="https://www.linkedin.com/in/ecuadrosv/">LinkedIn</a> 
            		</div>
         	</div>
@@ -208,7 +235,7 @@
 		<div class="profesor-info">
             		<p class="profesor-name">Profesor Roger Michael Silva Miller</p>
 			<p class="profesor-course">Curso: Moral</p>
-			<div class="profesor-redes">
+			<div class="redes">
 				<a href="https://www.linkedin.com/in/roger-miller-silva-47374b35/">LinkedIn</a>
            		</div>
         	</div>
@@ -219,7 +246,7 @@
 		<div class="profesor-info">
             		<p class="profesor-name">Profesor Renzo Menchola Tenorio</p>
 			<p class="profesor-course">Curso: Desarrollo de habilidades de negociación</p>
-			<div class="profesor-redes">
+			<div class="redes">
 				<a href="https://www.linkedin.com/in/rmenchola/">LinkedIn</a>
            		</div>
         	</div>
@@ -230,7 +257,7 @@
 		<div class="profesor-info">
             		<p class="profesor-name">Profesor Miguel Fernando Salomon Valdivia</p>
 			<p class="profesor-course">Curso: Estrategia de Ventas y distribución</p>
-			<div class="profesor-redes">
+			<div class="redes">
 				<a href="https://www.linkedin.com/in/miguel-salomon-529453125/">LinkedIn</a>
            		</div>
         	</div>
@@ -241,7 +268,7 @@
 		<div class="profesor-info">
             		<p class="profesor-name">Profesor Felix Williams Luque Alvarez</p>
 			<p class="profesor-course">Curso: Workspace de Google & IA</p>
-			<div class="profesor-redes">
+			<div class="redes">
 				<a href="https://www.linkedin.com/in/felixluquealvarez/">LinkedIn</a>
            		</div>
         	</div>
@@ -252,17 +279,87 @@
         
     <section id="compañeros-de-estudio">
         <h2>Compañeros de estudio</h2>
-        <ul>
-		<li><a href="">Vanessa Alexandra Yesan Valdivia</a></li>
-		<li><a href="https://krisletyahairajuarezarce.github.io/Krislet-Yahaira-Juarez-Arce/">Krislet Yahaira Juarez Arce</a></li>
-		<li><a href="https://mariafernandaapazameza.github.io/Maria-Fernanda-Apaza-Meza/">María Fernanda Apaza Meza</a></li>
-		<li><a href="">Piero Mathias Chahuares Diaz</a></li>
-		<li><a href="https://sergipalomino.github.io/Perfil.Sergio.PR/">Sergio Gonzalo Palomino Rosado</a></li>
-		<li><a href="">Mariano Andrei Mendoza Pinto</a></li>
-		<li><a href="https://ismael-caceres.github.io/Ismael-Valentin-Caceres-Gallegos/">Ismael Valentin Cáceres Gallegos</a></li>
-		<li><a href="https://jimenaq25.github.io/Jimena-Sofia-Quiroz-Bautista/">Jimena Sofia Quiroz Bautista</a></li>
+	<div class="compañeros-card">
+		<img src="Fotos/profesor7.jpg"class="compañeros-img">
+		<div class="compañeros-info">
+			<p class="compañeros-name">Vanessa Alexandra Yesan Valdivia</p>
+			<div class="redes">
+				<a href="https://www.linkedin.com/in/vanessa-alexandra-yesan-valdivia-8810a5334/">LinkedIn</a>
+				<a href="">Página web</a>
+       			</div>
+ 		</div>
+ 	</div>
+	<div class="compañeros-card">
+		<img src="Fotos/profesor7.jpg"class="compañeros-img">
+		<div class="compañeros-info">
+			<p class="compañeros-name">Krislet Yahaira Juarez Arce</p>
+			<div class="redes">
+				<a href="https://www.linkedin.com/in/krislet-yahaira-juarez-arce-a97570357/">LinkedIn</a>
+				<a href="https://krisletyahairajuarezarce.github.io/Krislet-Yahaira-Juarez-Arce/">Página web</a>
+       			</div>
+ 		</div>
+ 	</div>	
+	<div class="compañeros-card">
+		<img src="Fotos/profesor7.jpg"class="compañeros-img">
+		<div class="compañeros-info">
+			<p class="compañeros-name">María Fernanda Apaza Meza</p>
+			<div class="redes">
+				<a href="https://www.linkedin.com/in/mar%C3%ADa-fernanda-apaza-meza-3926aa29b/">LinkedIn</a>
+				<a href="https://mariafernandaapazameza.github.io/Maria-Fernanda-Apaza-Meza/">Página web</a>
+       			</div>
+ 		</div>
+ 	</div>
+	<div class="compañeros-card">
+		<img src="Fotos/profesor7.jpg"class="compañeros-img">
+		<div class="compañeros-info">
+			<p class="compañeros-name">Piero Mathias Chahuares Diaz</p>
+			<div class="redes">
+				<a href="www.linkedin.com/in/piero-mathias-chahuares-d%C3%ADaz/">LinkedIn</a>
+				<a href="">Página web</a>
+       			</div>
+ 		</div>
+ 	</div>
+	<div class="compañeros-card">
+		<img src="Fotos/profesor7.jpg"class="compañeros-img">
+		<div class="compañeros-info">
+			<p class="compañeros-name">Sergio Gonzalo Palomino Rosado</p>
+			<div class="redes">
+				<a href="https://www.linkedin.com/in/palomino-rosado-sergio-gonzalo-a64996356/">LinkedIn</a>
+				<a href="https://sergipalomino.github.io/Perfil.Sergio.PR/">Página web</a>
+       			</div>
+ 		</div>
+ 	</div>
+	<div class="compañeros-card">
+		<img src="Fotos/profesor7.jpg"class="compañeros-img">
+		<div class="compañeros-info">
+			<p class="compañeros-name">Mariano Andrei Mendoza Pinto</p>
+			<div class="redes">
+				<a href="https://www.linkedin.com/in/mariano-mendoza-pinto-153a52249/">LinkedIn</a>
+				<a href="">Página web</a>
+       			</div>
+ 		</div>
+ 	</div>
+	<div class="compañeros-card">
+		<img src="Fotos/profesor7.jpg"class="compañeros-img">
+		<div class="compañeros-info">
+			<p class="compañeros-name">Ismael Valentin Cáceres Gallegos</p>
+			<div class="redes">
+				<a href="https://www.linkedin.com/in/ismael-valentin-caceres-gallegos-b55abb366/">LinkedIn</a>
+				<a href="https://ismael-caceres.github.io/Ismael-Valentin-Caceres-Gallegos/">Página web</a>
+       			</div>
+ 		</div>
+ 	</div>
+	<div class="compañeros-card">
+		<img src="Fotos/profesor7.jpg"class="compañeros-img">
+		<div class="compañeros-info">
+			<p class="compañeros-name">Jimena Sofia Quiroz Bautista</p>
+			<div class="redes">
+				<a href="https://www.linkedin.com/in/jimena-sof%C3%ADa-quiroz-bautista-30a047358/">LinkedIn</a>
+				<a href="https://jimenaq25.github.io/Jimena-Sofia-Quiroz-Bautista/">Página web</a>
+       			</div>
+ 		</div>
+ 	</div>
 
-        </ul>
     </section>
     <section id="contacto">
         <h2>Contacto</h2>
