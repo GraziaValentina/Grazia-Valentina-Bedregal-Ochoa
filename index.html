@@ -68,11 +68,13 @@
         		}
 
         		.boton-modo-oscuro {
-            			display: block;
-            			margin: 20px auto;
-            			padding: 10px 20px;
-            			background-color: #3e5770;
-            			color: white;
+            			display: flex;
+				align-items: center;
+				gap: 10px;
+            			margin: 10px auto;
+            			padding: 6px 18px;
+            			background-color: #688098;
+            			color: 000000;
             			border: none;
             			border-radius: 5px;
             			cursor: pointer;
@@ -196,7 +198,8 @@
         	<a href="#contacto">Contacto</a>
     	</nav>
 	<button class="boton-modo-oscuro" onclick="alternarModoOscuro()">
-		<img src="Fotos/lunaysol.png"alt="Modo Claro/Oscuro"class="sol-y-luna-img"/>
+		<img src="Fotos/solyluna.png"class="sol-y-luna-img"/>
+		<p>Modo Claro/Oscuro<p/>
 	</button>
 	<script>
         	function alternarModoOscuro() {
